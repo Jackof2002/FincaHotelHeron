@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Hotel Campestre | Hotel Heron</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav__bar">
+          <div class="logo">
+            <a href="#"><img src="assets/logo2.png" alt="logo" /></a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="#about">Acerca</a></li>
+          <li><a href="#service">Servicios</a></li>
+          <li><a href="#explore">Explorar</a></li>
+          <!--<li><a href="#contact">Contactanos</a></li>-->
+          
+        </ul>
+        <a href="#contact" class="btn">Contactanos</a>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <p>Simple - Único - Acogedor</p>
+        <h1>Vive El Éje Cafetero<br />En Nuestro<span>Hotel</span>.</h1>
+      </div>
+    </header>
+
+    <section class="section__container booking__container">
+      <form action="/" class="booking__form">
+        <div class="input__group">
+          <span><i class="ri-calendar-2-fill"></i></span>
+          <div>
+            <label for="check-in">ENTRADA</label>
+            <input type="text" placeholder="Check In" />
+          </div>
+        </div>
+        <div class="input__group">
+          <span><i class="ri-calendar-2-fill"></i></span>
+          <div>
+            <label for="check-out">SALIDA</label>
+            <input type="text" placeholder="Check Out" />
+          </div>
+        </div>
+        <div class="input__group">
+          <span><i class="ri-user-fill"></i></span>
+          <div>
+            <label for="guest">NÚMERO</label>
+            <input type="text" placeholder="Guest" />
+          </div>
+        </div>
+        <div class="input__group input__btn">
+          <button class="btn">BUSCAR</button>
+        </div>
+      </form>
+    </section>
+
+    <!-----------SECCIÓN DE ACERCA DE NOSOTROS ---------->
+
+    <section class="section__container about__container" id="about">
+      <div class="about__image">
+        <img src="assets/about2.jpeg" alt="about" />
+      </div>
+      <div class="about__content">
+        <p class="section__subheader">ACERCA DE NOSOTROS</p>
+        <h2 class="section__header">Los Mejores Días Comienzan Aquí!</h2>
+        <p class="section__description">
+          Centrada en alojamientos de calidad
+          Experiencias personalizadas y reservas sin complicaciones
+          Nuestra plataforma se dedica a garantizar que cada viajero 
+          Emprenda sus vacaciones soñadas con confianza y emoción.
+        </p>
+        <div class="about__btn">
+          <a href="aboutus.html" class="btn">Leer Más</a>
+        </div>
+      </div>
+    </section>
+
+    <!-----------SECCIÓN DE REELS---------->
+
+    <section class="section__container room__container">
+      <p class="section__subheader">NOVEDADES</p>
+      <h2 class="section__header">Disfruta nuestro contenido.</h2>
+      <div class="room__grid">
+        <div class="reel__card">
+          <div class="reel__card__image">
+            <img src="assets/room-1.jpg" alt="room" />
+          </div>
+        </div>
+        <div class="reel__card">
+          <div class="reel__card__image">
+            <img src="assets/room-2.jpg" alt="room" />
+          </div>
+        </div>
+        <div class="reel__card">
+          <div class="reel__card__image">
+            <img src="assets/room-3.jpg" alt="room" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-----------SECCIÓN DE SERVICIOS---------->
+
+    <section class="service" id="service">
+      <div class="section__container service__container">
+        <div class="service__content">
+          <p class="section__subheader">SERVICIOS</p>
+          <h2 class="section__header">Tu Preocupate Por Elegir El Mejor.</h2>
+          <ul class="service__list">
+            <li>
+              <span><i class="ri-shield-star-line"></i></span>
+              Parqueaderos Seguros 
+            </li>
+            <li>
+              <span><i class="ri-fire-line"></i></span>
+              Agua Caliente
+            </li>
+            <li>
+              <span><i class="ri-headphone-line"></i></span>
+              Areas Comunes
+            </li>
+            <li>
+              <span><i class="ri-map-2-line"></i></span>
+              Convenios Turisticos
+            </li>
+            <li>
+              <span><i class="ri-restaurant-line"></i></span>
+              Desayunos
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-----------SECCIÓN DE PLANES DE VACACIÓN---------->
+
+    <section class="section__container room__container">
+      <p class="section__subheader">NUESTROS ESPACIOS</p>
+      <h2 class="section__header">Los Descansos Memorables Comienzan Aquí.</h2>
+      <div class="room__grid">
+        <div class="room__card">
+          <div class="room__card__image">
+            <img src="assets/room-1.jpg" alt="room" />
+            <div class="room__card__icons">
+              <span><i class="ri-heart-fill"></i></span>
+              <span><i class="ri-paint-fill"></i></span>
+              <span><i class="ri-shield-star-line"></i></span>
+            </div>
+          </div>
+          <div class="room__card__details">
+            <h4>alojamientos</h4>
+            <p>
+              Disfruta de nuestros cuartos comodos, especios para relajarte y 
+              sentirte en tu hogar desayuno incluido.
+            </p>
+            <h5>Cuartos desde <span>$75.000,00 COP</span></h5>
+            <button class="btn">Contactanos</button>
+          </div>
+        </div>
+        <div class="room__card">
+          <div class="room__card__image">
+            <img src="assets/room-2.jpg" alt="room" />
+            <div class="room__card__icons">
+              <span><i class="ri-heart-fill"></i></span>
+              <span><i class="ri-paint-fill"></i></span>
+              <span><i class="ri-shield-star-line"></i></span>
+            </div>
+          </div>
+          <div class="room__card__details">
+            <h4>Pasadias/Pasanoche</h4>
+            <p>
+              Disfruta de días de verano en nuestras 
+              instalaciones campestres.
+            </p>
+            <h5>Desde <span>$13.000,00 COP</span></h5>
+            <button class="btn">Contactanos</button>
+          </div>
+        </div>
+        <div class="room__card">
+          <div class="room__card__image">
+            <img src="assets/room-3.jpg" alt="room" />
+            <div class="room__card__icons">
+              <span><i class="ri-heart-fill"></i></span>
+              <span><i class="ri-paint-fill"></i></span>
+              <span><i class="ri-shield-star-line"></i></span>
+            </div>
+          </div>
+          <div class="room__card__details">
+            <h4>Eventos</h4>
+            <p>
+              Personaliza tu evento a tu manera desde bodas a cumpleaños, 
+              personaliza nuestros espacios de ensueño a tu manera.
+            </p>
+            <h5>Desde <span>$126.000,00 COP</span></h5>
+            <button class="btn">Contactanos</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-----------CONVENIOS---------->
+
+    <section class="experience" id="experience">
+      <div class="section__container experience__container">
+        <div class="service__content">
+          <p class="section__subheader">CONVENIOS</p>
+          <h2 class="section__header">Enterate de nuestros convenios con sitios Turisticos.</h2>
+          <p>
+            Contamos con convenios turísticos exclusivos que permiten a nuestros 
+            huéspedes disfrutar de experiencias únicas en la región. Gracias a nuestras 
+            alianzas estratégicas con operadores locales, ofrecemos descuentos especiales 
+            en tours, actividades culturales y planes de aventura, garantizando comodidad, 
+            seguridad y el mejor precio durante tu estadía.
+          </p>
+          <div class="about__btn">
+            <a href="#" class="btn">Explorar</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-----------SECCIÓN DE BANNER---------->
+
+    <section class="section__container banner__container">
+      <div class="banner__content">
+        <div class="banner__card">
+          <h4>50</h4>
+          <p>Disponibilidad</p>
+        </div>
+        <div class="banner__card">
+          <h4>350+</h4>
+          <p>Reservas Atendidas</p>
+        </div>
+        <div class="banner__card">
+          <h4>600+</h4>
+          <p>Clientes Satisfechos</p>
+        </div>
+      </div>
+    </section>
+
+    <!-----------SECCIÓN DE ANUNCION DE PROXIMAMENTE---------->
+
+    <section class="explore" id="explore">
+      <p class="section__subheader">EXPLORAR</p>
+      <h2 class="section__header">¿Qué Hay De Nuevo?.</h2>
+      <div class="explore__bg">
+        <div class="explore__content">
+          <p class="section__description">EVENTUALMENTE</p>
+          <h4>Traeremos Nuevas Funciones a nuestra página.</h4>
+          <button class="btn">Continuar</button>
+        </div>
+      </div>
+    </section>
+
+    <!-----------SECCIÓN DE FOOTER---------->
+
+    <footer class="footer" id="contact">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="logo">
+            <a href="#home"><img src="assets/logo2.png" alt="logo" /></a>
+          </div>
+          <p class="section__description">
+            Descubra un mundo de comodidad, lujo y aventura mientras
+            explora nuestra cuidada selección de hoteles, haciendo
+            que cada momento de su escapada sea verdaderamente extraordinario.
+          </p>
+          <button class="btn">Reserva Ahora</button>
+        </div>
+        <div class="footer__col">
+          <h4>LINKS</h4>
+          <ul class="footer__links">
+            <li><a href="#">Browse Destinations</a></li>
+            <li><a href="#">Special Offers & Packages</a></li>
+            <li><a href="#">Room Types & Amenities</a></li>
+            <li><a href="#">Customer Reviews & Ratings</a></li>
+            <li><a href="#">Travel Tips & Guides</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>NUESTROS SERVICIOS</h4>
+          <ul class="footer__links">
+            <li><a href="#">Concierge Assistance</a></li>
+            <li><a href="#">Flexible Booking Options</a></li>
+            <li><a href="#">Airport Transfers</a></li>
+            <li><a href="#">Wellness & Recreation</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>CONTACTANOS</h4>
+          <ul class="footer__links">
+            <li><a href="#">fincahotelheron@info.com</a></li>
+            <li><a href="#">+57 304 381 2428</a></li>
+          </ul>
+          <div class="footer__socials">
+            <a href="https://www.facebook.com/FincaHotelHeron"><img src="assets/facebook.png" alt="facebook" /></a>
+            <a href="https://www.instagram.com/fincahotelheronq?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img src="assets/instagram1.png" alt="instagram" /></a>
+            <a href="#"><img src="assets/youtube.png" alt="youtube" /></a>
+            <a href="#"><img src="assets/twitter.png" alt="twitter" /></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2023 Web Design Mastery. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

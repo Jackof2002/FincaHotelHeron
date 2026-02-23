@@ -353,7 +353,7 @@ nav {
 }
 
 .service {
-  background-image: url("assets/service.jpg");
+  background-image: url("assets/service.png");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -493,7 +493,7 @@ nav {
     minmax(1rem, 1fr)
     minmax(0, var(--max-width))
     minmax(1rem, 1fr);
-  background-image: url("assets/explore.jpg");
+  background-image: url("assets/explore.png");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -536,8 +536,18 @@ nav {
 }
 
 .footer__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+
   display: grid;
-  gap: 4rem 2rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+
+.footer__col {
+  display: flex;
+  flex-direction: column;
 }
 
 .footer__col .section__description {

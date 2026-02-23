@@ -80,7 +80,6 @@ ScrollReveal().reveal(".experience__container p", {
 document.addEventListener("DOMContentLoaded", function () {
 
   const images = [
-    "assets/experience.jpg",
     "assets/experience2.jpg",
     "assets/experience3.jpg"
   ];

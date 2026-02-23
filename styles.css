@@ -15,6 +15,7 @@
   box-sizing: border-box;
 }
 
+
 .section__container {
   max-width: var(--max-width);
   margin: auto;
@@ -333,6 +334,11 @@ nav {
 .room__card h5 span {
   font-size: 1.1rem;
   color: var(--text-dark);
+}
+
+.novedades {
+  background-color: #f5f5f5; /* el color que quieras */
+  padding: 4rem 0;
 }
 
 .reel__card {

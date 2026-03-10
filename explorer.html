@@ -39,35 +39,40 @@
     <!------SECCIÓN DE RESERVA----->
 
     <section class="section__container booking__container">
-      <form action="/" class="booking__form">
+      <form class="booking__form" id="bookingForm">
+        
         <div class="input__group">
           <span><i class="ri-calendar-2-fill"></i></span>
           <div>
-            <label for="check-in">ENTRADA</label>
-            <input type="text" placeholder="Check In" />
+            <label for="checkin">ENTRADA</label>
+            <input type="date" id="checkin" required>
           </div>
         </div>
+
         <div class="input__group">
           <span><i class="ri-calendar-2-fill"></i></span>
           <div>
-            <label for="check-out">SALIDA</label>
-            <input type="text" placeholder="Check Out" />
+            <label for="checkout">SALIDA</label>
+            <input type="date" id="checkout" required>
           </div>
         </div>
+
         <div class="input__group">
           <span><i class="ri-user-fill"></i></span>
           <div>
             <label for="guest">NÚMERO</label>
-            <input type="text" placeholder="Guest" />
+            <input type="number" id="guest" placeholder="Personas" required>
           </div>
         </div>
+
         <div class="input__group input__btn">
-          <button class="btn">BUSCAR</button>
+          <button type="submit" class="btn">BUSCAR</button>
         </div>
+
       </form>
     </section>
-  
-<!-----SECCIÓN PARA CONVENIOS ----->
+
+    <!-----SECCIÓN PARA CONVENIOS ----->
 
     
 <!-----------SECCIÓN DE ANUNCION DE PROXIMAMENTE---------->

@@ -103,3 +103,18 @@ document.addEventListener("DOMContentLoaded", function () {
 
 });
 
+document.getElementById("bookingForm").addEventListener("submit", function(e) {
+  e.preventDefault();
+
+  const checkin = document.getElementById("checkin").value;
+  const checkout = document.getElementById("checkout").value;
+  const guest = document.getElementById("guest").value;
+
+  const telefono = "573001234567"; // cambia por tu número de WhatsApp
+
+  const mensaje = `Hola 👋, quiero reservar desde ${checkin} hasta ${checkout} para ${guest} personas.`;
+
+  const url = `https://wa.me/${telefono}?text=${encodeURIComponent(mensaje)}`;
+
+  window.open(url, "_blank");
+});
